@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+section{
+    height: 500px;
+    padding: 140px;
+}
+.top_banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+.half_width{
+    float: left;
+    width: 45%;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+.half_width h1{
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 700;
+}
+.half_width h1 span{
+    color: orange;
+}
+.half_width h3{
+    padding: 20px 0;
+    font-size: 25px;
+}
+.half_width p{
+    color: dimgray;
+    padding-bottom: 25px;
+}
+.hire_btn{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    font-size: 15px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.half_width h2{
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 500;
+}
+.half_width img{
+    width: 100%;
+}
+
+.dream_area{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.download_btn{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    font-size: 15px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: 700;
+}
